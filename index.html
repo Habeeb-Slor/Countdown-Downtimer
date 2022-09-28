@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <title>Document</title>
+    <style>
+      body{
+        background-image: url(/Img/pexels-the-glorious-studio-13273980.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <section class="container p-3 w-25 shadow-lg">
+        <input type="text" placeholder="HH" class="form-control w-75"  id="myHour">
+        <input type="text" placeholder="MM"  class="form-control w-75" id="myMin">
+        <input type="text" placeholder="SS" class="form-control w-75"  id="mySec">
+        <button class="btn btn-warning mt-3" onclick="startCountDown()">Start</button>
+      </section>  
+    </center>  
+
+    <script src="main.js"></script>
+  </body>
+</html>
